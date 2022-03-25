@@ -1,7 +1,7 @@
 # Semantic_Segmentation_Models
 
 
-### DeepLabV3plus with EfficientNet as a backbone: 
+## 1.  DeepLabV3plus with EfficientNet as a backbone: 
 
 Paper link: [Encoder-Decoder with Atrous Separable Convolution](https://arxiv.org/pdf/1802.02611.pdf)
 
