@@ -1,3 +1,6 @@
+import os
+os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
+
 import tensorflow as tf
 from tensorflow.keras.layers import Conv2D, BatchNormalization, Activation, MaxPool2D, Conv2DTranspose, Concatenate, Input
 from tensorflow.keras.models import Model
@@ -25,7 +28,7 @@ def decoder_block(inputs, skip, num_filters):
     
     return x
 
-def Unet_MobileNetV2(input_shape, classes = 1):    ## (512, 512, 3)
+def Unet_MobileNetV2(input_shape, classes = 1):             ## (512, 512, 3)
 
     """ Input """
     inputs = Input(shape=input_shape)
@@ -49,14 +52,14 @@ def Unet_MobileNetV2(input_shape, classes = 1):    ## (512, 512, 3)
     d4 = decoder_block(d3, s1, 64)                          ## (512 x 512)
     
     """ Output """
-    outputs = Conv2D(classes, (1, 1), padding="same")(d4)
+    outputs = Conv2D(classes, (1, 1), padding="same", name="output_layer")(d4)
     
     if classes == 1:
       outputs = Activation('sigmoid')(outputs)
     else:
       outputs = Activation('softmax')(outputs)
 
-    model = Model(inputs, outputs, name="MobileNetV2_U-Net")
+    model = Model(inputs, outputs)
     
     return model
 
