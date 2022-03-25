@@ -10,6 +10,7 @@ from tensorflow.keras.applications import EfficientNetB2
 def ASPP(image_features):
 
   shape = image_features.shape
+  
   y_pool = AveragePooling2D(pool_size=(shape[1], shape[2]))(image_features)
   y_pool = Conv2D(filters=256, kernel_size=1, padding='same', use_bias=False)(y_pool)
   y_pool = BatchNormalization(name=f'bn_1')(y_pool)
