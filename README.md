@@ -8,7 +8,7 @@
 ### Implementation:
 1.  [DeepLabV3plus with EfficientNet as a backbone](https://github.com/tshr-d-dragon/Semantic_Segmentation_Models/blob/main/DeepLabV3plus_EfficientNet.py)
 2.  [DeepLabV3plus with ResNet as a backbone](https://github.com/tshr-d-dragon/Semantic_Segmentation_Models/blob/main/DeepLabV3plus_ResNet.py)
-3.  [DeepLabV3plus with InceptionV3 as a backbone]()
+3.  [DeepLabV3plus with DenseNet as a backbone](https://github.com/tshr-d-dragon/Semantic_Segmentation_Models/blob/main/DeepLabV3plus_DenseNet.py)
 
 
 ## 2.  Unet:
