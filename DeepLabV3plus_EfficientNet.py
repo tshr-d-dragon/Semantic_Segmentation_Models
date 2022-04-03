@@ -46,7 +46,7 @@ def DeepLabV3Plus(inputs, classes=1):
 
     inputs = Input(inputs)
 
-    base_model = EfficientNetB2(weights='imagenet', include_top=False, input_tensor=inputs)
+    base_model = EfficientNetB2(weights='imagenet', include_top=False, input_tensor=inputs, drop_connect_rate=0.25)
     high_level_image_features = base_model.get_layer('block6a_expand_bn').output
 
     x_a = ASPP(high_level_image_features)
