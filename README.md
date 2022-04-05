@@ -3,7 +3,9 @@
 
 ## 1.  DeepLabV3plus: 
 
-### Paper link: [Encoder-Decoder with Atrous Separable Convolution](https://arxiv.org/pdf/1802.02611.pdf)
+### Paper(DeepLabV3plus): [Encoder-Decoder with Atrous Separable Convolution](https://arxiv.org/pdf/1802.02611.pdf)
+### Paper(SqueezeAndExcitation): https://arxiv.org/pdf/1709.01507.pdf
+
 
 ### Implementation:
 1.  [DeepLabV3plus with EfficientNet as a backbone](https://github.com/tshr-d-dragon/Semantic_Segmentation_Models/blob/main/DeepLabV3plus_EfficientNet.py)
