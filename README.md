@@ -12,6 +12,7 @@
 2.  [DeepLabV3plus_SqueezeExcitation with EfficientNet as a backbone](https://github.com/tshr-d-dragon/Semantic_Segmentation_Models/blob/main/DeepLabV3plusSE_EfficientNet.py)
 3.  [DeepLabV3plus with ResNet as a backbone](https://github.com/tshr-d-dragon/Semantic_Segmentation_Models/blob/main/DeepLabV3plus_ResNet.py)
 4.  [DeepLabV3plus with DenseNet as a backbone](https://github.com/tshr-d-dragon/Semantic_Segmentation_Models/blob/main/DeepLabV3plus_DenseNet.py)
+5.  [DeepLabV3plus with SqueezeNet as a backbone](https://github.com/tshr-d-dragon/Semantic_Segmentation_Models/blob/main/DeepLabV3plus_SqueezeNet.py)
 
 
 ## 2.  Unet:
