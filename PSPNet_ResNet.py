@@ -53,7 +53,6 @@ def PSPNet(inputs, classes=100):
 
     """ Outputs """
     x = Conv2D(classes, (1, 1), name='output_layer')(x)
-    print(x.shape)
 
     if classes == 1:
       x = Activation('sigmoid')(x)
