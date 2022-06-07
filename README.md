@@ -16,8 +16,15 @@
 6.  [DeepLabV3plus with VGG16 as a backbone](https://github.com/tshr-d-dragon/Semantic_Segmentation_Models/blob/main/DeepLabV3plus_VGG16.py)
 
 
+## 2.  PSPNet:
 
-## 2.  Unet:
+### Paper link: [Pyramid Scene Parsing Network](https://arxiv.org/pdf/1612.01105.pdfT)
+
+### Implementation:
+1.  [PSPNet with MobileNetV2 as a backbone](https://github.com/tshr-d-dragon/Semantic_Segmentation_Models/blob/main/PSPNet_ResNet.py)
+
+
+## 3.  Unet:
 
 ### Paper link: [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/pdf/1505.04597.pdf)
 
