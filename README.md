@@ -18,7 +18,7 @@
 
 ## 2.  PSPNet:
 
-### Paper link: [Pyramid Scene Parsing Network]([https://arxiv.org/pdf/1612.01105.pdfT](https://arxiv.org/abs/1612.01105))
+### Paper link: [Pyramid Scene Parsing Network](https://arxiv.org/abs/1612.01105)
 
 ### Implementation:
 1.  [PSPNet with MobileNetV2 as a backbone](https://github.com/tshr-d-dragon/Semantic_Segmentation_Models/blob/main/PSPNet_ResNet.py)
