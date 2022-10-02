@@ -1,10 +1,12 @@
 # Semantic_Segmentation_Models
 
 
-## 1.  DeepLabV3plus: 
+## 1.  DeepLabV3plus with SqueezeAndExcitation: 
 
 ### Paper(DeepLabV3plus): [Encoder-Decoder with Atrous Separable Convolution](https://arxiv.org/pdf/1802.02611.pdf)
+![Image1](https://production-media.paperswithcode.com/models/Screen_Shot_2021-02-21_at_10.34.37_AM_kvOFts0.png)
 ### Paper(SqueezeAndExcitation): https://arxiv.org/pdf/1709.01507.pdf
+![Image2](https://production-media.paperswithcode.com/methods/Screen_Shot_2020-06-06_at_10.55.54_PM.png)
 
 
 ### Implementation:
@@ -19,7 +21,7 @@
 ## 2.  PSPNet:
 
 ### Paper link: [Pyramid Scene Parsing Network](https://arxiv.org/abs/1612.01105)
-
+![Image3](https://production-media.paperswithcode.com/methods/new_pspnet-eps-converted-to.jpg)
 ### Implementation:
 1.  [PSPNet with ResNet50 as a backbone](https://github.com/tshr-d-dragon/Semantic_Segmentation_Models/blob/main/PSPNet_ResNet.py)
 
@@ -27,7 +29,7 @@
 ## 3.  Unet:
 
 ### Paper link: [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/pdf/1505.04597.pdf)
-
+![Image4](https://miro.medium.com/max/1200/1*f7YOaE4TWubwaFF7Z1fzNw.png)
 ### Implementation:
 1.  [Unet with MobileNetV2 as a backbone](https://github.com/tshr-d-dragon/Semantic_Segmentation_Models/blob/main/Unet_MobileNetV2.py)
 2.  [Unet with EfficientNet as a backbone]() Coming Soon...
