@@ -1,5 +1,5 @@
 # Semantic_Segmentation_Models
-I am aiming to write different Semantic Segmentation models from scratch with different pretrained backbones.
+In this repository, I am aiming to write different Semantic Segmentation models from scratch with different pretrained backbones.
 
 ## 1.  DeepLabV3plus with SqueezeAndExcitation: 
 
