@@ -18,18 +18,25 @@ I am aiming to write different Semantic Segmentation models from scratch with di
 6.  [DeepLabV3plus with VGG16 as a backbone](https://github.com/tshr-d-dragon/Semantic_Segmentation_Models/blob/main/DeepLabV3plus_VGG16.py)
 
 
-## 2.  PSPNet:
+## 2. Global Convolutional Network (GCN):
+### Paper link: [GCN](https://arxiv.org/pdf/1703.02719.pdf)
+![Image3](https://miro.medium.com/max/4800/1*4VRH-f6OaHxqyjUviJtpfg.webp)
+### Implementation:
+1.  [GCN with ResNet50_v2 as a backbone](https://github.com/tshr-d-dragon/Semantic_Segmentation_Models/blob/main/GCN_ResNet50_v2.py)
+
+
+## 3.  PSPNet:
 
 ### Paper link: [Pyramid Scene Parsing Network](https://arxiv.org/abs/1612.01105)
-![Image3](https://production-media.paperswithcode.com/methods/new_pspnet-eps-converted-to.jpg)
+![Image4](https://production-media.paperswithcode.com/methods/new_pspnet-eps-converted-to.jpg)
 ### Implementation:
 1.  [PSPNet with ResNet50 as a backbone](https://github.com/tshr-d-dragon/Semantic_Segmentation_Models/blob/main/PSPNet_ResNet.py)
 
 
-## 3.  Unet:
+## 4.  Unet:
 
 ### Paper link: [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/pdf/1505.04597.pdf)
-![Image4](https://miro.medium.com/max/1200/1*f7YOaE4TWubwaFF7Z1fzNw.png)
+![Image5](https://miro.medium.com/max/1200/1*f7YOaE4TWubwaFF7Z1fzNw.png)
 ### Implementation:
 1.  [Unet with MobileNetV2 as a backbone](https://github.com/tshr-d-dragon/Semantic_Segmentation_Models/blob/main/Unet_MobileNetV2.py)
 2.  [Unet with EfficientNet as a backbone]() Coming Soon...
