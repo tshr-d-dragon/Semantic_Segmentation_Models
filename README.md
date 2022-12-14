@@ -23,6 +23,7 @@ I am aiming to write different Semantic Segmentation models from scratch with di
 ![Image3](https://miro.medium.com/max/4800/1*4VRH-f6OaHxqyjUviJtpfg.webp)
 ### Implementation:
 1.  [GCN with ResNet50_v2 as a backbone](https://github.com/tshr-d-dragon/Semantic_Segmentation_Models/blob/main/GCN_ResNet50_v2.py)
+2.  [GCN with EfficientNetB0 as a backbone](https://github.com/tshr-d-dragon/Semantic_Segmentation_Models/blob/main/GCN_EfficientNetB0.py)
 
 
 ## 3.  PSPNet:
