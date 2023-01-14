@@ -34,7 +34,11 @@ I am aiming to write different Semantic Segmentation models from scratch with di
 1.  [PSPNet with ResNet50 as a backbone](https://github.com/tshr-d-dragon/Semantic_Segmentation_Models/blob/main/PSPNet_ResNet.py)
 
 
-## 4.  Unet:
+## 4.  DeepLabV3Plus_PSPNet_SE:
+This model is to try whether Deeplabv3p model with an added PSPNet module for deeper semantic feature extraction and Squeeze&Excitation modules to add channel-wise attention. I will be sharing results of this if this works out well.
+
+
+## 5.  Unet:
 
 ### Paper link: [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/pdf/1505.04597.pdf)
 ![Image5](https://miro.medium.com/max/1200/1*f7YOaE4TWubwaFF7Z1fzNw.png)
