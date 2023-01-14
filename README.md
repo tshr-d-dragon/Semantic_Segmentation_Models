@@ -36,12 +36,12 @@ I am aiming to write different Semantic Segmentation models from scratch with di
 
 ## 4.  DeepLabV3Plus_PSPNet_SE:
 This model is to try whether Deeplabv3p model with an added PSPNet module for deeper semantic feature extraction and Squeeze&Excitation modules to add channel-wise attention. I will be sharing results of this if this works out well.
-
+![Image5](https://github.com/tshr-d-dragon/Semantic_Segmentation_Models/blob/main/Deeplabv3p_PSPNet_SqEx_SegModel.drawio.png)
 
 ## 5.  Unet:
 
 ### Paper link: [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/pdf/1505.04597.pdf)
-![Image5](https://miro.medium.com/max/1200/1*f7YOaE4TWubwaFF7Z1fzNw.png)
+![Image6](https://miro.medium.com/max/1200/1*f7YOaE4TWubwaFF7Z1fzNw.png)
 ### Implementation:
 1.  [Unet with MobileNetV2 as a backbone](https://github.com/tshr-d-dragon/Semantic_Segmentation_Models/blob/main/Unet_MobileNetV2.py)
 2.  [Unet with EfficientNet as a backbone]() Coming Soon...
