@@ -16,7 +16,7 @@ I am aiming to write different Semantic Segmentation models from scratch with di
 4.  [DeepLabV3plus with DenseNet as a backbone](https://github.com/tshr-d-dragon/Semantic_Segmentation_Models/blob/main/DeepLabV3plus_DenseNet.py)
 5.  [DeepLabV3plus with SqueezeNet as a backbone](https://github.com/tshr-d-dragon/Semantic_Segmentation_Models/blob/main/DeepLabV3plus_SqueezeNet.py)
 6.  [DeepLabV3plus with VGG16 as a backbone](https://github.com/tshr-d-dragon/Semantic_Segmentation_Models/blob/main/DeepLabV3plus_VGG16.py)
-7.  [DeepLabV3plus with ResNext101 as a backbone](https://github.com/tshr-d-dragon/Semantic_Segmentation_Models/blob/main/DeepLabV3plus_ResNext101.py). We need to clone classification_models from [qubevl's](https://github.com/qubvel/classification_models) repository (I have used the pre-trained model from this repository). 
+7.  [DeepLabV3plus with ResNext101 as a backbone](https://github.com/tshr-d-dragon/Semantic_Segmentation_Models/blob/main/DeepLabV3plus_ResNext101.py). We need to clone [qubevl's](https://github.com/qubvel/classification_models) **classification_models** repository (I have used the pre-trained model from this repository). 
 
 
 ## 2. Global Convolutional Network (GCN):
