@@ -25,11 +25,11 @@ def ASPP(image_features):
   y_6 = BatchNormalization(name=f'bn_3')(y_6)
   y_6 = Activation('relu', name=f'relu_3')(y_6)
 
-  y_12 = Conv2D(filters=256, kernel_size=1, padding='same', dilation_rate = 12,use_bias=False)(image_features)
+  y_12 = Conv2D(filters=256, kernel_size=3, padding='same', dilation_rate = 12,use_bias=False)(image_features)
   y_12 = BatchNormalization(name=f'bn_4')(y_12)
   y_12 = Activation('relu', name=f'relu_4')(y_12)
 
-  y_18 = Conv2D(filters=256, kernel_size=3, padding='same', dilation_rate = 6,use_bias=False)(image_features)
+  y_18 = Conv2D(filters=256, kernel_size=3, padding='same', dilation_rate = 18,use_bias=False)(image_features)
   y_18 = BatchNormalization(name=f'bn_5')(y_18)
   y_18 = Activation('relu', name=f'relu_5')(y_18)
 
